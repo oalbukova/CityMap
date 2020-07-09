@@ -1,0 +1,31 @@
+.center__image_second {
+    margin-right: 60px;
+    -o-object-position: bottom;
+    object-position: bottom;
+    margin-bottom: 17px;
+}
+
+@media (max-width: 1280px) {
+    .center__image_second {
+        margin-bottom: 0;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width: 900px) {
+    .center__image_second {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 720px) {
+    .center__image_second {
+        margin: auto;
+    }
+}
+
+@media(max-width: 360px) {
+    .center__image_second {
+        max-width: 280px;
+    }
+}

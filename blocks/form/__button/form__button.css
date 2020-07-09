@@ -1,0 +1,32 @@
+.form__button {
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  align-self: center;
+  outline: none;
+  padding-right: 1%;
+  transition: opacity .3s;
+}
+
+@media (max-width: 1000px) {
+  .form__button {
+    max-height: 40px;
+  }
+}
+
+@media (max-width: 850px) {
+  .form__button {
+    max-height: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .form__button {
+    max-height: 40px;
+  }
+}
+
+.form__button:hover {
+  cursor: pointer;
+  opacity: .5;
+}

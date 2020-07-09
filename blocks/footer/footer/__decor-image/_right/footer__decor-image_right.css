@@ -1,0 +1,13 @@
+.footer__decor-image_right {
+  background-image: url(../../../../images/footer-back-right.png);
+  height: 383px;
+  width: 96px;
+  margin-right: 120px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1279px) {
+  .footer__decor-image_right {
+    display: none;
+  }
+}

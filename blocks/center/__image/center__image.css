@@ -1,0 +1,7 @@
+@import url(./_first/center__image_first.css);
+@import url(./_second/center__image_second.css);
+.center__image {
+  -o-object-fit: contain;
+  object-fit: contain;
+  object-position: bottom;
+  }

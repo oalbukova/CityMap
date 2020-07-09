@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Cabin";
+  font-style: Regular;
+  font-weight: 400;
+  font-display: swap;
+  src: url(../fonts/Cabin/Cabin-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cabin";
+  font-style: Semi-bold;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Cabin/Cabin-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Cabin";
+  font-style: Bold;
+  font-weight: 700;
+  font-display: swap;
+  src: url(../fonts/Cabin/Cabin-Bold.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: Light;
+  font-weight: 300;
+  font-display: swap;
+  src: url(../fonts/Gilroy/Gilroy-Light.woff) format("woff"),
+    url(../fonts/Gilroy/Gilroy-Light.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: ExtraBold;
+  font-weight: 600;
+  font-display: swap;
+  src: url(../fonts/Gilroy/Gilroy-ExtraBold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: Heavy;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../fonts/Gilroy/Gilroy-Heavy.woff) format("woff"),
+    url(../fonts/Gilroy/Gilroy-Heavy.ttf) format("truetype");
+}

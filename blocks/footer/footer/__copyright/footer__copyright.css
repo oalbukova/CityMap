@@ -1,0 +1,21 @@
+@import url(_color/footer__copyright_color.css);
+
+.footer__copyright {
+  grid-area: copyright;
+  font-size: 14px;
+  line-height: 21px;
+  color: #bdd3df;
+  text-align: center;
+  margin: 57px 0 0;
+}
+
+.footer__copyright.footer__copyright_color {
+  color: #13F1FC;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__copyright {
+    margin-top: 150px;
+    text-align: start;
+  }
+}

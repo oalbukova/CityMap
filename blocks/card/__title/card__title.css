@@ -1,0 +1,21 @@
+.card__title {
+    font-size: 34px;
+    padding: 0;
+    margin-top: 14px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+@media (max-width: 1024px) {
+    .card__title {
+        margin-top: 7px;
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 720px) {
+    .card__title {
+        margin-top: 3px;
+        font-size: 24px;
+    }
+}

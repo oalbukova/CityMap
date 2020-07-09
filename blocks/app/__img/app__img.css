@@ -1,0 +1,38 @@
+@keyframes call{
+  from {
+    transform: rotate(-0.5deg);
+  }
+  to {
+    transform: rotate(0.5deg);
+  }
+}
+
+.app__img {
+  box-sizing: border-box;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  margin-top: -60px;
+  animation: call linear 0.1s infinite;
+}
+
+@media (max-width: 768px) {
+  .app__img {
+    margin-top: -23px;
+    height: 367px;
+  }
+}
+
+@media (max-width: 660px) {
+  .app__img {
+    margin-top: 12px;
+  }
+}
+
+@media (max-width: 530px) {
+  .app__img {
+    height: 290px;
+  }
+}

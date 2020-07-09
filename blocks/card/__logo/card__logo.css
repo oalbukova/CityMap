@@ -1,0 +1,26 @@
+.card__logo {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .card__logo {
+        max-width: 60px;
+    }
+}
+
+@media (max-width: 720px) {
+    .card__logo {
+        max-width: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .card__logo {
+        margin-left: -150px;
+    }
+}

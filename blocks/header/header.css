@@ -1,0 +1,53 @@
+@import url(./__container/header__container.css);
+@import url(./__block/header__block.css);
+@import url(./__text/header__text.css);
+@import url(./__title/header__title.css);
+@import url(./__paragraph/header__paragraph.css);
+@import url(./__form/header__form.css);
+@import url(./__img/header__img.css);
+
+.header {
+  font-family: 'Cabin', 'Gilroy', Arial, sans-serif;
+  background-image: url(../../img/fon.png);
+  width: 100%;
+  min-height: 912px;
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 1280px) {
+  .header {
+    min-height: 855px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    min-height: 870px;
+  }
+}
+
+@media (max-width: 900px) {
+  .header {
+    min-height: 700px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    min-height: 530px;
+  }
+}
+
+@media (max-width: 710px) {
+  .header {
+    min-height: 650px;
+  }
+}
+
+@media (max-width: 699px) {
+  .header {
+    min-height: 900px;
+  }
+}

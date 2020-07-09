@@ -1,0 +1,23 @@
+.footer__decor-image_right {
+  background-image: url(../../../../img/footerright.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 383px;
+  width: 96px;
+  margin-bottom: 10px;
+  margin-right: 10%;
+}
+
+
+@media (max-width: 1279px) {
+  .footer__decor-image_right {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 560px) {
+  .footer__decor-image_right {
+    display: none;
+  }
+}

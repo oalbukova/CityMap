@@ -1,0 +1,10 @@
+@import url(./__title/phone__title.css);
+@import url(./__subtitle/phone__subtitle.css);
+@import url(./__img/phone__img.css);
+.phone {
+    padding: 0 20px;
+    background-image: url(../../img/3-layers.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1083px;
+}

@@ -1,0 +1,7 @@
+@import url(_color/footer__navigation-link_color.css);
+
+.footer__navigation-link {
+  text-decoration: none;
+  list-style-type: none;
+}
+

@@ -1,0 +1,13 @@
+.center__image_first {
+    max-height: 333px;
+    margin-top: 29px;
+    -o-object-position: right;
+    object-position: right;
+    margin-left: 60px;
+  }
+  @media (max-width: 1024px){
+    .center__image_first{
+      max-width: 270px;
+      margin: auto;
+    }
+  }

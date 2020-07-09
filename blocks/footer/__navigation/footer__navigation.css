@@ -1,0 +1,19 @@
+.footer__navigation {
+  grid-area: block-right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 125px;
+  max-height: 175px;
+  font-size: 16px;
+  line-height: 31px;
+  z-index: 2;
+  margin: 0;
+}
+
+@media (max-width: 767px) {
+  .footer__navigation {
+    grid-column: 1/2;
+    margin-left: 150px;
+  }
+}

@@ -1,0 +1,18 @@
+.card__subtitle {
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1024px) {
+    .card__subtitle {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 720px) {
+    .card__subtitle {
+        font-size: 18px;
+    }
+}

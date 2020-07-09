@@ -1,0 +1,25 @@
+.nav__item {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+  padding-left: 36px;
+}
+
+@media (max-width: 1024px) {
+  .nav__item {
+    padding-left: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav__item {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 710px) {
+  .nav__item {
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+}

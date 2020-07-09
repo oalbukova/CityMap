@@ -1,0 +1,12 @@
+.footer__menu {
+  grid-area: block-left;
+  font-size: 16px;
+  line-height: 31px;
+  display: flex;
+  flex-direction: column;
+  max-height: 67px;
+  max-width: 122px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}

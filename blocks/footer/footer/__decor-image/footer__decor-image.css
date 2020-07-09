@@ -1,0 +1,6 @@
+@import url(./_left/footer__decor-image_left.css);
+@import url(./_right/footer__decor-image_right.css);
+
+.footer__decor-image {
+  z-index: 0;
+}

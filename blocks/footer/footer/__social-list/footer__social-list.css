@@ -1,0 +1,8 @@
+.footer__social-list {
+  list-style-type: none;
+  margin-right: 15px;
+}
+
+.footer__social-list:last-of-type {
+  margin-right: 0;
+}

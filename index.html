@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="author"
+      content="Denis Vasiliev, Olga Albukova, Viktor Abrosimov"
+    />
+    <meta name="description" content="A city assistant that will be useful for everyday tasks" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>CityMap</title>
+  </head>
+
+  <body>
+    <div class="page">
+      <!-- header-->
+      <header class="header page__header">
+        <div class="header__container">
+          <a class="logo" href="#" target="_blank">
+            <img class="logo__img" src="./img/logo.svg" alt="CityMap" />
+          </a>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link" target="_blank">About Us</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" target="_blank">Find Place</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" target="_blank">City Map</a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link" target="_blank"> Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__block">
+          <div class="header__text">
+            <h1 class="header__title">Search Your Destination</h1>
+            <p class="header__paragraph">
+              Then select departure date, how long the trip will be and how many
+              destinations to include. Users can also select if they want to
+              look at cities in Europe, the European Union or just the Schengen
+              Zone.
+            </p>
+            <form action="#" class="form header__form">
+              <input
+                type="text"
+                class="form__item"
+                name="place"
+                placeholder="Find your place here"
+                required=""
+              />
+              <input
+                class="form__button"
+                type="image"
+                src="./img/wait.svg"
+                alt="Search"
+              />
+            </form>
+          </div>
+          <img class="header__img" src="img/woman.png" alt="woman" />
+        </div>
+      </header>
+
+      <!--main-->
+      <main class="main">
+        <!--phone-->
+        <section class="phone main__phone">
+          <h2 class="phone__title">Get Start Search</h2>
+          <p class="phone__subtitle">Connect with city map</p>
+          <img class="phone__img" src="img/phone.png" alt="phone" />
+        </section>
+
+        <!--center-->
+        <section class="center">
+          <div class="center__container center__container_first">
+            <div class="center__text">
+              <p class="center__text_number">01</p>
+              <div class="card">
+                <img src="./img/2km.svg" alt="2.0km" class="card__logo" />
+                <h3 class="card__title">BRAC ATM Booth</h3>
+                <h4 class="card__subtitle">Connect with CityMap</h4>
+                <p class="card__paragraph">
+                  According to McClintock, a 15th century typesetter likely
+                  scrambled part of Cicero's De Finibus in order to provide
+                  placeholder text to mockup various fonts for a type specimen
+                  book.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./img/man.png"
+              alt="man with credit card"
+              class="center__image center__image_first"
+            />
+          </div>
+          <div class="center__container center__container_second">
+            <div class="center__text">
+              <p class="center__text_number">02</p>
+              <div class="card">
+                <img src="./img/5km.svg" alt="5.0km" class="card__logo" />
+                <h3 class="card__title">City Govt Hospital</h3>
+                <h4 class="card__subtitle">Connect with CityMap</h4>
+                <p class="card__paragraph">
+                  According to McClintock, a 15th century typesetter likely
+                  scrambled part of Cicero's De Finibus in order to provide
+                  placeholder text to mockup various fonts for a type specimen
+                  book.
+                </p>
+              </div>
+            </div>
+            <img
+              src="./img/doctors.png"
+              alt="two doctors"
+              class="center__image center__image_second"
+            />
+          </div>
+        </section>
+        <section class="app main__app">
+          <div class="app__container">
+            <img class="app__img" src="img/mobile.png" alt="mobile" />
+            <div class="app__text">
+              <h2 class="app__title">CityMap App</h2>
+              <p class="app__paragraph">
+                According to McClintock, a 15th century typesetter likely
+                scrambled part of Cicero's De Finibus in order to provide
+                placeholder.
+              </p>
+              <button
+                class="app__buttom app__buttom_type_android"
+                type="button"
+                onclick="location.href='https://play.google.com/'"
+              >
+                download
+              </button>
+              <button
+                class="app__buttom app__buttom_type_apple"
+                type="button"
+                onclick="location.href='https://www.apple.com/ru/ios/app-store/'"
+              >
+                download
+              </button>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <!--footer-->
+      <footer class="footer">
+        <div class="footer__decor-image footer__decor-image_left"></div>
+        <div class="footer__content">
+          <div class="footer__unit">
+            <img src="./img/footer-logo.svg" alt="logo CityMap" class="footer__logo" />
+            <p class="footer__instruction">
+              Then select departure date, how long the trip will be and how many
+              destinations to include. Users can also select if they want to
+              look at cities in Europe, the European Union or just the Schengen
+              Zone.
+            </p>
+            <ul class="footer__social">
+              <li class="footer__social-list">
+                <a href="https://www.facebook.com/" class="footer__social-link">
+                  <img src="./img/FB.svg" alt="link Facebook" class="footer__social-icon" />
+                </a>
+              </li>
+              <li class="footer__social-list">
+                <a href="https://twitter.com/" class="footer__social-link">
+                  <img src="./img/twitter.svg" alt="link Twitter" class="footer__social-icon" />
+                </a>
+              </li>
+              <li class="footer__social-list">
+                <a href="https://www.google.ru/" class="footer__social-link">
+                  <img src="./img/google.svg" alt="link Google" class="footer__social-icon" />
+                </a>
+              </li>
+            </ul>
+            <menu class="footer__menu">
+              <li class="footer__menu-link">
+                <a href="#" class="footer__menu-link footer__menu-link_color" target="_blank">About Us</a>
+              </li>
+              <li class="footer__menu-link">
+                <a href="#" class="footer__menu-link footer__menu-link_color" target="_blank">Contact</a>
+              </li>
+              <li class="footer__menu-link">
+                <a href="#" class="footer__menu-link footer__menu-link_color" target="_blank">FAQ</a>
+              </li>
+              <li class="footer__menu-link">
+                <a href="#" class="footer__menu-link footer__menu-link_color" target="_blank">Map</a>
+              </li>
+            </menu>
+            <ul class="footer__navigation">
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">Blog</a>
+              </li>
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">keywords</a>
+              </li>
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">Email</a>
+              </li>
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">Notification</a>
+              </li>
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">Settings</a>
+              </li>
+              <li class="footer__navigation-link">
+                <a href="#" class="footer__navigation-link footer__navigation-link_color" target="_blank">Update</a>
+              </li>
+            </ul>
+          </div>
+          <p class="footer__copyright">
+            © 2020,
+            <span class="footer__copyright">Yandex.Praktikum</span>
+          </p>
+        </div>
+        <div class="footer__decor-image footer__decor-image_right"></div>
+      </footer>
+    </div>
+  </body>
+</html>

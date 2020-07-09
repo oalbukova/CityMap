@@ -1,0 +1,37 @@
+.footer__unit {
+  display: grid;
+  max-height: 273px;
+  z-index: 1;
+
+}
+
+@media screen and (min-width: 1370px) {
+  .footer__unit {
+    width: 821px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer__unit {
+    max-width: 821px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__unit {
+    grid-column-gap: 20px;
+    grid-template-areas:
+    "logo . ."
+    "text block-left block-right"
+    "social-icon . block-right";
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__unit {
+    grid-template-areas:
+    "logo social-icon"
+    "text ."
+    "block-left block-right";
+  }
+}

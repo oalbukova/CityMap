@@ -1,0 +1,42 @@
+@import url(../__buttom/_type/app__buttom_type_android.css);
+@import url(../__buttom/_type/app__buttom_type_apple.css);
+
+.app__buttom {
+  width: 185px;
+  height: 45px;
+  border-radius: 25px;
+  border: 2px solid rgba(19, 241, 252, 0.2);
+  background-color: rgba(19, 241, 252, 0.2); 
+  outline: none;
+  color: #ffffff;
+  font-family: 'Cabin', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+  line-height: 21.33px;
+  text-transform: uppercase;
+  text-indent: 25px;
+  -webkit-transition: box-shadow 0.3s;
+  transition: box-shadow 0.3s;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 390px) {
+  .app__buttom {
+    width: 160px;
+    height: 45px;
+    text-indent: 45px;
+  }
+}
+
+@media (max-width: 355px) {
+  .app__buttom {
+    width: 150px;
+    margin-left: -30px;
+}
+  }
+
+.app__buttom:hover {
+  cursor: pointer;
+  box-shadow: 10px 10px 4px 0 rgba(4, 30, 65, 0.3);
+}

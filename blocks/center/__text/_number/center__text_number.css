@@ -1,0 +1,30 @@
+.center__text_number {
+    font-size: 215px;
+    color: #c7cce1;
+    font-weight: 600;
+    font-family: Cabin;
+    opacity: 0.1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=10)";
+    margin-top: 0;
+    margin-bottom: -159px;
+    max-width: 252px;
+    min-height: 219px;
+  }
+  @media (max-width: 1024px){
+    .center__text_number{
+      font-size: 170px;
+      min-height: auto;
+      margin-bottom: -100px;
+    }
+  }
+  @media(max-width: 900px){
+    .center__text_number{
+      margin-bottom: -80px;
+    }
+  }
+  @media(max-width: 720px){
+    .center__text_number{
+      font-size: 130px;
+    }
+  }
+  

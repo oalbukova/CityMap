@@ -1,0 +1,30 @@
+@import url(./__instruction/footer__instruction.css);
+@import url(./__logo/footer__logo.css);
+@import url(./__social/footer__social.css);
+@import url(./__unit/footer__unit.css);
+@import url(./__social-icon/footer__social-icon.css);
+@import url(./__social-list/footer__social-list.css);
+@import url(./__menu/footer__menu.css);
+@import url(./__menu-link/footer__menu-link.css);
+@import url(./__navigation/footer__navigation.css);
+@import url(./__navigation-link/footer__navigation-link.css);
+@import url(./__decor-image/footer__decor-image.css);
+@import url(./__copyright/footer__copyright.css);
+@import url(./__content/footer__content.css);
+
+.footer {
+  background-image: url(../../images/footer-bacground.png);
+  background-size: 100% 100%;
+  height: 526px;
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  font-family: 'Cabin', Arial, sans-serif;
+  margin: 0 auto;
+}
+
+@media (min-width: 1280px) {
+  .footer {
+    justify-content: space-between;
+  }
+}

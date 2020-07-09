@@ -1,0 +1,9 @@
+.footer__instruction {
+  grid-area: text;
+  font-size: 16px;
+  line-height: 25px;
+  color: #a5adb1;
+  max-width: 397px;
+  margin: 0;
+  margin-bottom: 25px;
+}

@@ -1,0 +1,25 @@
+.card__paragraph {
+    max-height: 92px;
+    max-width: 335px;
+    color: #a5adb1;
+    font-family: Cabin;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24.61px;
+    padding: 0;
+    margin-top: 19px;
+}
+
+@media (max-width: 1024px) {
+    .card__paragraph {
+        font-size: 10px;
+        margin-top: 14px;
+        line-height: 14px;
+    }
+}
+
+@media (max-width: 720px) {
+    .card__paragraph {
+        margin-top: 12px;
+    }
+}

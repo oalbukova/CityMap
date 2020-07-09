@@ -1,0 +1,15 @@
+@import url(../app/__container/app__container.css);
+@import url(../app/__img/app__img.css);
+@import url(../app/__text/app__text.css);
+@import url(../app/__title/app__title.css);
+@import url(../app/__paragraph/app__paragraph.css);
+@import url(../app/__buttom/app__buttom.css);
+
+
+.app {
+  background-image: url(../../img/water.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  box-sizing: border-box;
+}

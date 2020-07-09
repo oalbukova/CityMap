@@ -1,0 +1,5 @@
+@import url(./_color/footer__menu-link_color.css);
+
+.footer__menu-link {
+  list-style-type: none;
+}

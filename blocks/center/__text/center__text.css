@@ -1,0 +1,21 @@
+@import url(./_number/center__text_number.css);
+.center__text {
+  max-width: 346px;
+  padding: 0;
+  margin-left: 5px;
+  }
+  @media (max-width: 1024px){
+    .center__text{
+      margin-left: 4px;
+    }
+  }
+  @media (max-width: 720px){
+    .center__text{
+      margin: 0;
+    }
+  }
+  @media(max-width: 600px){
+    .center__text{
+      text-align: center;
+    }
+  }

@@ -1,0 +1,24 @@
+.header__paragraph {
+  color: #b7e6ff;
+  font-family: 'Cabin';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.38px;
+  max-width: 560px;
+  margin: 43px 0 52px;
+}
+
+@media (max-width: 900px) {
+  .header__paragraph {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24.38px;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header__paragraph {
+    margin: 10px 0 20px;
+  }
+}

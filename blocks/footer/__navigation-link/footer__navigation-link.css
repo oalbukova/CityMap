@@ -1,0 +1,13 @@
+@import url(_color/footer__navigation-link_color.css);
+
+.footer__navigation-link {
+  text-decoration: none;
+  list-style-type: none;
+  -webkit-transition: opacity linear 0.5s;
+  transition: opacity linear 0.5s;
+}
+
+.footer__navigation-link:hover {
+  opacity: 0.5;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+}

@@ -1,0 +1,24 @@
+.header__text {
+  margin: auto;
+  max-width: 560px;
+}
+
+@media (max-width: 1280px) {
+  .header__text {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .header__text {
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header__text {
+    -webkit-box-ordinal-group: 3;
+    -ms-flex-order: 2;
+    order: 2;
+  }
+}

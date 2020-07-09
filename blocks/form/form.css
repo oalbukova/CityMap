@@ -1,0 +1,12 @@
+@import url(./__item/form__item.css);
+@import url(./__button/form__button.css);
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  -webkit-box-sizing: border-box;
+  height: 62px;
+  background-color: white;
+  max-width: 472px;
+  border-radius: 31px;
+}

@@ -1,0 +1,15 @@
+@import url(./__logo/card__logo.css);
+@import url(./__paragraph/card__paragraph.css);
+@import url(./__title/card__title.css);
+@import url(./__subtitle/card__subtitle.css);
+.card {
+    color: #4f79a4;
+    font-family: Gilroy;
+    margin-left: 11px;
+}
+
+@media (max-width: 1024px) {
+    .card {
+        margin-left: 0;
+    }
+}

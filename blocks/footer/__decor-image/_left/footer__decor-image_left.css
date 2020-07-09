@@ -1,0 +1,14 @@
+.footer__decor-image_left {
+  height: 494px;
+  width: 462px;
+  background-image: url(../../../../img/footerleft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+@media (max-width: 700px) {
+  .footer__decor-image_left {
+     display: none;
+  }
+}
