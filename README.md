@@ -21,6 +21,6 @@
 - Денис Васильев (блок "center", "footer")
 - Виктор Абросимов (блок "footer")
 
-#### [Ссылка на макет в Figma](https://www.figma.com/file/lPVJ7laobeFekXYB0GZ3lL/citymap)
+#### [Ссылка на макет в Figma](https://oalbukova.github.io/CityMap/)
 
 #### [Ссылка на готовый проект](#)
